@@ -28,7 +28,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 		// ‰æ–Ê‚ÌƒNƒŠƒA
 		ClearDrawScreen();
 
-
+		DrawString(0, 20, "1", GetColor(255, 255, 255));
 
 		// — ‰æ–Ê‚ð•\‰æ–Ê‚ð“ü‚ê‘Ö‚¦‚é
 		ScreenFlip();
